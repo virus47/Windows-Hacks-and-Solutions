@@ -1,0 +1,3 @@
+net user administrator /active:yes - to activate
+
+net user administrator /active:no - to deactivate

@@ -1,0 +1,20 @@
+open "defragment and optimize drives" and optimise all drivers
+
+Perform SFC Scan and Repair Windows Image
+-This process will perform scan for any corrupted system files or integrity violation and will attempt to repair it along with the Windows Image.
+
+1. Open command prompt with administrator access
+2. Type each command below and wait until scan is completed.
+
+SFC /scannow
+DISM /Online /Cleanup-Image /CheckHealth
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /RestoreHealth
+
+Quick note: While the command is running, it's expected to see the process stuck at 20 or 40 percent. After a few minutes, the process will complete successfully.
+
+Once you complete the steps, the Deployment Image Servicing and Management tool will connect to the Windows Update servers to download and replace any damaged files in the local image for Windows 10 as necessary.
+
+3. Close the command prompt.
+
+After the scan completes, kindly check for available updates on your computer. 

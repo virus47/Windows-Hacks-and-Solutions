@@ -1,0 +1,1 @@
+go-to "security, properties tab" and type command and click ok "NT SERVICE\TrustedInstaller"

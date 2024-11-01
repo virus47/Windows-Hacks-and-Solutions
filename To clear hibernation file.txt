@@ -1,0 +1,4 @@
+open terminal type "powercfg /h off" to turn off hibernation.
+
+to see hibernation file goto C: and goto "view" (top bar) at the end "options" select folder options
+select "show hidden files" and unselect "show proctected system files"
